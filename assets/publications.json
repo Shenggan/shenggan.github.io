@@ -1,98 +1,103 @@
 [
   {
-    "image": "",
-    "alt": "",
-    "title": "tcfft: A fast half-precision fft library for nvidia tensor cores",
-    "authors": [
-      {
-        "name": "Binrui Li"
-      },
-      {
-        "name": "Shenggan Cheng",
-        "extraClass": "zx"
-      },
-      {
-        "name": "James Lin"
-      }
-    ],
-    "venue": {
-      "name": "CLUSTER 2021",
-      "url": ""
-    },
-    "paper": "",
-    "video": "",
-    "acmDL": "",
-    "year": "2021",
-    "featured": false,
-    "type": "Paper",
-    "topic": "HPC Application"
-  },
-  {
-    "image": "",
-    "alt": "",
-    "title": "CUBE: Towards an Optimal Scaling of Cosmological N-body Simulations",
-    "authors": [
-      {
-        "name": "Shenggan Cheng*",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Hao-Ran Yu*"
-      },
-      {
-        "name": "Derek Inman"
-      },
-      {
-        "name": "Qiucheng Liao"
-      },
-      {
-        "name": "Qiaoya Wu"
-      },
-      {
-        "name": "James Lin"
-      }
-    ],
-    "venue": {
-      "name": "CCGRID 2020",
-      "url": ""
-    },
-    "paper": "",
-    "video": "",
-    "acmDL": "",
-    "year": "2020",
-    "featured": true,
-    "type": "Paper",
-    "topic": "HPC Application"
-  },
-  {
-    "image": "",
+    "image": "./images/hanayo.png",
     "alt": "",
     "title": "Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency",
     "authors": [
-      {
-        "name": "Ziming Liu*"
-      },
-      {
-        "name": "Shenggan Cheng*",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Haotian Zhou"
-      },
-      {
-        "name": "Yang You"
-      }
+      { "name": "Ziming Liu*" },
+      { "name": "Shenggan Cheng*", "extraClass": "zx" },
+      { "name": "Haotian Zhou" },
+      { "name": "Yang You" }
     ],
     "venue": {
-      "name": "SC 2023",
-      "url": ""
+      "name": "SC 2023"
     },
-    "paper": "",
-    "video": "",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3581784.3607073",
+    "url": "https://dl.acm.org/doi/10.1145/3581784.3607073",
     "year": "2023",
     "featured": true,
-    "type": "Paper",
-    "topic": "HPC Application"
+    "code": "https://github.com/Shenggan/shenggan.github.io",
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/fastfold.png",
+    "alt": "",
+    "title": "FastFold: reducing AlphaFold training time from 11 days to 67 hours",
+    "authors": [
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Xuanlei Zhao" },
+      { "name": "Guangyang Lu" },
+      { "name": "Jiarui Fang" },
+      { "name": "Zhongming Yu" },
+      { "name": "Tian Zheng" },
+      { "name": "Ruidong Wu" },
+      { "name": "Xiwen Zhang" },
+      { "name": "Jian Peng" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "arXiv 2022" },
+    "url": "https://arxiv.org/abs/2203.00854",
+    "year": "2022",
+    "featured": true,
+    "code": "https://github.com/hpcaitech/FastFold",
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/tcfft.png",
+    "alt": "",
+    "title": "tcfft: A fast half-precision fft library for nvidia tensor cores",
+    "authors": [
+      { "name": "Binrui Li" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "James Lin" }
+    ],
+    "venue": {
+      "name": "CLUSTER 2021"
+    },
+    "video": "",
+    "url": "https://ieeexplore.ieee.org/document/9555937",
+    "year": "2021",
+    "featured": false,
+    "topic": "hpc"
+  },
+  {
+    "image": "./images/cube.png",
+    "alt": "",
+    "title": "CUBE: Towards an Optimal Scaling of Cosmological N-body Simulations",
+    "authors": [
+      { "name": "Shenggan Cheng*", "extraClass": "zx" },
+      { "name": "Hao-Ran Yu*" },
+      { "name": "Derek Inman" },
+      { "name": "Qiucheng Liao" },
+      { "name": "Qiaoya Wu" },
+      { "name": "James Lin" }
+    ],
+    "venue": {
+      "name": "CCGRID 2020"
+    },
+    "url": "https://ieeexplore.ieee.org/document/9139651",
+    "year": "2020",
+    "featured": true,
+    "topic": "hpc",
+    "blogPost": "https://cosmo-cube.github.io/scale2020/"
+  },
+  {
+    "image": "./images/hmsnet.png",
+    "alt": "",
+    "title": "Hms-net: Hierarchical multi-scale sparsity-invariant network for sparse depth completion",
+    "authors": [
+      { "name": "Zixuan Huang" },
+      { "name": "Junming Fan" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Shuai Yi" },
+      { "name": "Xiaogang Wang" },
+      { "name": "Hongsheng Li" }
+    ],
+    "venue": {
+      "name": "TIP 2019"
+    },
+    "url": "https://ieeexplore.ieee.org/document/8946876",
+    "year": "2019",
+    "featured": false,
+    "topic": "cv"
   }
 ]
