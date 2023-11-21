@@ -1,2 +1,98 @@
 [
-]  
+  {
+    "image": "",
+    "alt": "",
+    "title": "tcfft: A fast half-precision fft library for nvidia tensor cores",
+    "authors": [
+      {
+        "name": "Binrui Li"
+      },
+      {
+        "name": "Shenggan Cheng",
+        "extraClass": "zx"
+      },
+      {
+        "name": "James Lin"
+      }
+    ],
+    "venue": {
+      "name": "CLUSTER 2021",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "acmDL": "",
+    "year": "2021",
+    "featured": false,
+    "type": "Paper",
+    "topic": "HPC Application"
+  },
+  {
+    "image": "",
+    "alt": "",
+    "title": "CUBE: Towards an Optimal Scaling of Cosmological N-body Simulations",
+    "authors": [
+      {
+        "name": "Shenggan Cheng*",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Hao-Ran Yu*"
+      },
+      {
+        "name": "Derek Inman"
+      },
+      {
+        "name": "Qiucheng Liao"
+      },
+      {
+        "name": "Qiaoya Wu"
+      },
+      {
+        "name": "James Lin"
+      }
+    ],
+    "venue": {
+      "name": "CCGRID 2020",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "acmDL": "",
+    "year": "2020",
+    "featured": true,
+    "type": "Paper",
+    "topic": "HPC Application"
+  },
+  {
+    "image": "",
+    "alt": "",
+    "title": "Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency",
+    "authors": [
+      {
+        "name": "Ziming Liu*"
+      },
+      {
+        "name": "Shenggan Cheng*",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Haotian Zhou"
+      },
+      {
+        "name": "Yang You"
+      }
+    ],
+    "venue": {
+      "name": "SC 2023",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3581784.3607073",
+    "year": "2023",
+    "featured": true,
+    "type": "Paper",
+    "topic": "HPC Application"
+  }
+]
