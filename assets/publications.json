@@ -1,5 +1,81 @@
 [
   {
+    "image": "./images/hetegen.png",
+    "alt": "",
+    "title": "HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices",
+    "authors": [
+      { "name": "Xuanlei Zhao" },
+      { "name": "Bin Jia" },
+      { "name": "Haotian Zhou" },
+      { "name": "Ziming Liu" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "MLSys 2024" },
+    "year": "2024",
+    "featured": false,
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/auto-chunk.png",
+    "alt": "",
+    "title": "AutoChunk: Automated Activation Chunk for Memory-Efficient Long Sequence Inference",
+    "authors": [
+      { "name": "Xuanlei Zhao" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Guangyang Lu" },
+      { "name": "Haotian Zhou" },
+      { "name": "Bin Jia" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "ICLR 2024" },
+    "url": "https://arxiv.org/abs/2401.10652",
+    "year": "2024",
+    "featured": false,
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/fastfold.png",
+    "alt": "",
+    "title": "FastFold: Optimizing AlphaFold Training and Inference on GPU Clusters",
+    "authors": [
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Xuanlei Zhao" },
+      { "name": "Guangyang Lu" },
+      { "name": "Jiarui Fang" },
+      { "name": "Tian Zheng" },
+      { "name": "Ruidong Wu" },
+      { "name": "Xiwen Zhang" },
+      { "name": "Jian Peng" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "PPoPP 2024" },
+    "url": "https://dl.acm.org/doi/10.1145/3627535.3638465",
+    "year": "2024",
+    "featured": true,
+    "code": "https://github.com/hpcaitech/FastFold",
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/liger.png",
+    "alt": "",
+    "title": "Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference",
+    "authors": [
+      { "name": "Jiangsu Du" },
+      { "name": "Jinhui Wei" },
+      { "name": "Jiazhi Jiang" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Dan Huang" },
+      { "name": "Zhiguang Chen" },
+      { "name": "Yutong Lu" }
+    ],
+    "venue": { "name": "PPoPP 2024" },
+    "url": "https://dl.acm.org/doi/abs/10.1145/3627535.3638466",
+    "year": "2024",
+    "featured": true,
+    "topic": "mlsys"
+  },
+  {
     "image": "./images/hanayo.png",
     "alt": "",
     "title": "Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency",
@@ -15,30 +91,6 @@
     "url": "https://dl.acm.org/doi/10.1145/3581784.3607073",
     "year": "2023",
     "featured": true,
-    "code": "https://github.com/Shenggan/shenggan.github.io",
-    "topic": "mlsys"
-  },
-  {
-    "image": "./images/fastfold.png",
-    "alt": "",
-    "title": "FastFold: reducing AlphaFold training time from 11 days to 67 hours",
-    "authors": [
-      { "name": "Shenggan Cheng", "extraClass": "zx" },
-      { "name": "Xuanlei Zhao" },
-      { "name": "Guangyang Lu" },
-      { "name": "Jiarui Fang" },
-      { "name": "Zhongming Yu" },
-      { "name": "Tian Zheng" },
-      { "name": "Ruidong Wu" },
-      { "name": "Xiwen Zhang" },
-      { "name": "Jian Peng" },
-      { "name": "Yang You" }
-    ],
-    "venue": { "name": "arXiv 2022" },
-    "url": "https://arxiv.org/abs/2203.00854",
-    "year": "2022",
-    "featured": true,
-    "code": "https://github.com/hpcaitech/FastFold",
     "topic": "mlsys"
   },
   {
