@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        /* ======================================
+        Responsive Image gallery Style rules
+        ======================================*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+        /* 
+        .container {
+            padding: 40px 5%;
+        } */
+
+        .heading-text {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .heading-text span {
+            font-weight: 100;
+        }
+
+        /* Responsive image gallery rules begin*/
+
+        .image-gallery {
+            /* Mobile first */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-gallery .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-item img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 5px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .image-gallery {
+                flex-direction: row;
+            }
+        }
+
+        /* overlay styles */
+
+        .image-item {
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* hover */
+        .image-item:hover .overlay {
+            transform: scale(1);
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/main.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
+    <div class="outercontainer">
+        <script src="../assets/header.js"></script>
+        <header>
+            <div class="container header">
+                <div class="ftheader text"><a href="/#home">Shenggan Cheng</a></div>
+                <div class="ftsubheader text"><a href="/photograph"> Photograph </a></div>
+                <div class="ftsubheader text"><a href="/hiddenstate.html">/</a></div>
+                <div class="ftsubheader text"><a href="/assets/CV-shenggan.pdf">CV</a></div>
+                <div class="ftsubheader text"><a href="/hiddenstate.html">/</a></div>
+                <div class="ftsubheader text"><a href="/#publications">Publications</a></div>
+                <div class="ftsubheader text"><a href="/hiddenstate.html">/</a></div>
+                <div class="ftsubheader text"><a href="/#home">About</a></div>
+            </div>
+        </header>
+        <div class="container body">
+            <div class="content heading anchor" id="home">
+                <div class="container">
+                    <div class="image-gallery">
+                        <div class="column">
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/1.png"><img src="./images/1.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/2.png"><img src="./images/2.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/3.png"><img src="./images/3.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/11.png"><img src="./images/11.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/12.png"><img src="./images/12.png"
+                                        alt="" /></a>
+                            </div>
+
+                        </div>
+                        <div class="column">
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/4.png"><img src="./images/4.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/5.png"><img src="./images/5.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/6.png"><img src="./images/6.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/14.png"><img src="./images/14.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/17.png"><img src="./images/17.png"
+                                        alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/7.png"><img src="./images/7.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/8.png"><img src="./images/8.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/9.png"><img src="./images/9.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/10.png"><img src="./images/10.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/13.png"><img src="./images/13.png"
+                                        alt="" /></a>
+                            </div>
+                            <div class="image-item">
+                                <a data-fancybox="gallery" data-src="./images/15.png"><img src="./images/15.png"
+                                        alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            //
+        });
+    </script>
+</body>
+
+</html>
