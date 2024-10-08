@@ -1,5 +1,28 @@
 [
   {
+    "image": "./images/concerto.png",
+    "alt": "",
+    "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
+    "authors": [
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Shengjie Lin" },
+      { "name": "Lansong Diao" },
+      { "name": "Hao Wu" },
+      { "name": "Siyu Wang" },
+      { "name": "Chang Si" },
+      { "name": "Ziming Liu" },
+      { "name": "Xuanlei Zhao" },
+      { "name": "Jiangsu Du" },
+      { "name": "Wei Lin" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "ASPLOS 2025" },
+    "url": "",
+    "year": "2024",
+    "featured": true,
+    "topic": "mlsys"
+  },
+  {
     "image": "./images/hetegen.png",
     "alt": "",
     "title": "HeteGen: Efficient Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices",
