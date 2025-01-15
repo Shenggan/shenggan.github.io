@@ -4,8 +4,8 @@
     "alt": "",
     "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
     "authors": [
-      { "name": "Shenggan Cheng", "extraClass": "zx" },
-      { "name": "Shengjie Lin" },
+      { "name": "Shenggan Cheng*", "extraClass": "zx" },
+      { "name": "Shengjie Lin*" },
       { "name": "Lansong Diao" },
       { "name": "Hao Wu" },
       { "name": "Siyu Wang" },
