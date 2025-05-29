@@ -1,5 +1,44 @@
 [
   {
+    "image": "./images/dsp.png",
+    "alt": "",
+    "title": "DSP: Dynamic Sequence Parallelism for Multi-Dimensional Transformers",
+    "authors": [
+      { "name": "Xuanlei Zhao" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Chang Chen" },
+      { "name": "Zangwei Zheng" },
+      { "name": "Ziming Liu" },
+      { "name": "Zheming Yang" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "ICML 2025" },
+    "url": "",
+    "year": "2025",
+    "featured": false,
+    "topic": "mlsys"
+  },
+  {
+    "image": "./images/seedlora.png",
+    "alt": "",
+    "title": "SeedLoRA: A Fusion Approach to Efficient LLM Fine-Tuning",
+    "authors": [
+      { "name": "Yong Liu" },
+      { "name": "Di Fu" },
+      { "name": "Shenggan Cheng", "extraClass": "zx" },
+      { "name": "Zirui Zhu" },
+      { "name": "Yang Luo" },
+      { "name": "Minhao Cheng" },
+      { "name": "Cho-Jui Hsieh" },
+      { "name": "Yang You" }
+    ],
+    "venue": { "name": "ICML 2025" },
+    "url": "",
+    "year": "2025",
+    "featured": false,
+    "topic": "mlsys"
+  },
+  {
     "image": "./images/concerto.png",
     "alt": "",
     "title": "Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning",
@@ -18,7 +57,7 @@
     ],
     "venue": { "name": "ASPLOS 2025" },
     "url": "https://dl.acm.org/doi/10.1145/3669940.3707223",
-    "year": "2024",
+    "year": "2025",
     "featured": true,
     "topic": "mlsys"
   },
